@@ -1,0 +1,21 @@
+﻿<Window x:Class="Pra.HerhalingLists.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.HerhalingLists.WPF"
+        mc:Ignorable="d"
+        Title="Herhaling Lists" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstDisplay" HorizontalAlignment="Left" Height="399" Margin="538,10,0,0" VerticalAlignment="Top" Width="244"/>
+        <Button x:Name="btnList1" Content="01. List van integers aanmaken : uitlezen met for ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="462" Click="BtnList1_Click"/>
+        <Button x:Name="btnList2" Content="02. List van integers aanmaken : uitlezen met foreach ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,43,0,0" VerticalAlignment="Top" Width="462" Click="BtnList2_Click"/>
+        <Button x:Name="btnList3" Content="03. List van random aantal, random gegenereerde integers ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,76,0,0" VerticalAlignment="Top" Width="462" Click="BtnList3_Click"/>
+        <Button x:Name="btnList4" Content="04. List van random aantal, random gegenereerde integers, en gesorteerd ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,109,0,0" VerticalAlignment="Top" Width="462" Click="BtnList4_Click"/>
+        <Button x:Name="btnList5" Content="05. de kracht van lists zit hem in objecten (versie 1) ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,192,0,0" VerticalAlignment="Top" Width="462" Click="BtnList5_Click"/>
+        <Button x:Name="btnList6" Content="06. de kracht van lists zit hem in objecten (versie 2) ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,225,0,0" VerticalAlignment="Top" Width="462" Click="BtnList6_Click"/>
+        <Button x:Name="btnList7" Content="07. de kracht van lists zit hem in objecten (versie 3) ..." HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,258,0,0" VerticalAlignment="Top" Width="462" Click="BtnList7_Click"/>
+        <Button x:Name="btnList8" Content="08. Om af te sluiten, een dicitonary " HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="28" Margin="10,318,0,0" VerticalAlignment="Top" Width="462" Click="BtnList8_Click"/>
+
+    </Grid>
+</Window>

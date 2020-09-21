@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.HerhalingLists.WPF", "Pra.HerhalingLists.WPF\Pra.HerhalingLists.WPF.csproj", "{50C78896-29E1-4229-8530-5D08BFA8759C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C78896-29E1-4229-8530-5D08BFA8759C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C78896-29E1-4229-8530-5D08BFA8759C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C78896-29E1-4229-8530-5D08BFA8759C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C78896-29E1-4229-8530-5D08BFA8759C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB991E72-26AF-4F29-A91C-2EE8125810CD}
+	EndGlobalSection
+EndGlobal
